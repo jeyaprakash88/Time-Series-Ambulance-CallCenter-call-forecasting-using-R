@@ -16,7 +16,7 @@ To successfully run the code, ensure you have the R packages listed in the `DESC
 ## Usage
 
 1. Clone this repository.
-2. Open the `C22081255_code.txt` file in your preferred R environment or RStudio.
+2. Open the `time_series_forecating` file in your preferred R environment or RStudio.
 3. Ensure you have the necessary packages installed.
 4. Run the R code to reproduce the analysis.
 
