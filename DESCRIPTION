@@ -1,0 +1,18 @@
+
+Package: TimeSeriesAnalysis
+Type: Project
+Title: Time Series Analysis in R
+Version: 1.0
+Author: [Your Name]
+Maintainer: [Your Email]
+Description: R code and resources for time series analysis.
+Depends:
+    R (>= 3.5.0),
+    knitr,
+    ggfortify,
+    reshape2,
+    imputeTS,
+    forecast,
+    zoo,
+    tseries,
+    ggplot2
