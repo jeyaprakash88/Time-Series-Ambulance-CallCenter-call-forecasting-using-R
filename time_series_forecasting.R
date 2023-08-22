@@ -26,7 +26,7 @@ library(forecast)
 
 
 #LOAD DATA
-data  <- read_excel("C:/Users/c22081255/OneDrive - Cardiff University/Desktop/Data Science and Analytics/MAT005 Time Series and Forecasting/Coursework/new.xlsx", sheet = "Month")
+data  <- read_excel("data.xlsx", sheet = "Month")
 
 head(data)
 
@@ -51,7 +51,7 @@ summary(data)
 plot(data,xlab="Date", ylab = "Call count as (%) of 2017",main="Monthly Call Count from 2017 and 2022")
 
 
-data  <- read_excel("C:/Users/c22081255/OneDrive - Cardiff University/Desktop/Data Science and Analytics/MAT005 Time Series and Forecasting/Coursework/new.xlsx", sheet = "month1")
+data  <- read_excel("data.xlsx", sheet = "month1")
 
 data <- na.approx(data)
 data = as.data.frame(data)
@@ -101,7 +101,7 @@ seasonplot(month_data)
 
 #Loading Initial Data
 
-data  <- read_excel("C:/Users/c22081255/OneDrive - Cardiff University/Desktop/Data Science and Analytics/MAT005 Time Series and Forecasting/Coursework/new.xlsx", sheet = "transform_data")
+data  <- read_excel("data.xlsx", sheet = "transform_data")
 
 # Data with null values
 myvector <- data$`Count of Incoming_Call_Time`
@@ -140,7 +140,7 @@ statsNA(weeks_null)
 
 
 #Loading the transformed values with increase of 7
-data  <- read_excel("C:/Users/c22081255/OneDrive - Cardiff University/Desktop/Data Science and Analytics/MAT005 Time Series and Forecasting/Coursework/new.xlsx", sheet = "model")
+data  <- read_excel("data.xlsx", sheet = "model")
 data
 # remove first column
 data <- data[, -1]
